@@ -1,13 +1,3 @@
-@keyframes pulse {
-  0% {
-    opacity: .6;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
 html,
 body,
 main {
@@ -23,7 +13,6 @@ main {
   background: url('../screen-background-only@4x.png');
   background-size: cover;
   background-position: center;
-  animation: pulse 2s linear infinite alternate;
 }
 
 img {
