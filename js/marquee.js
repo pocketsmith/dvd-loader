@@ -39,8 +39,6 @@ export class Marquee {
     const boxLeft = Math.floor(box.left)
     const boxTop = Math.floor(box.top)
 
-    console.log(boxLeft, this.maxLeft, boxTop, this.maxTop)
-
     if (boxLeft === 0) this.left = this.maxLeft
     if (boxLeft === this.maxLeft) this.left = 0
     if (boxTop === 0) this.top = this.maxTop
