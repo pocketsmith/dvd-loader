@@ -1,0 +1,13 @@
+@keyframes pulse {
+  0% {
+    opacity: .6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+main {
+  animation: pulse 3s ease infinite alternate;
+}
